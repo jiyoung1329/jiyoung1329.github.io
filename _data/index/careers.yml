@@ -4,13 +4,13 @@
     detail: SSAFY(Samsung Software Academy For Youth) 
     i18n: company_a
   desc:
-    detail: I worked at Company A ...
+    detail: Study Algorithm, FrontEnd & Backend with Project 
     i18n: company_a_desc
   date:
-    detail: Apr. 2016
+    detail: 2020.01 ~ 2020.12
     i18n: company_a_date
   job:
-    detail: CTO
+    detail: Student
     i18n: company_a_job
   icon: fa-plus-square
   present: true
@@ -19,12 +19,12 @@
     detail: KyungPook National University 
     i18n: company_b
   desc:
-    detail: I worked at Company B ...
+    detail: Machanical Engineering
     i18n: company_b_desc
   date:
-    detail: Jun. 2015
+    detail: 2016.03 ~ 2020.02
     i18n: company_b_date
   job:
-    detail: Full Stack Developer
+    detail: Student
     i18n: company_b_job
   icon: fa-plus-square
