@@ -32,9 +32,7 @@ author:  # change following line to your infomation.
 
 # comment
 disqus:  # if you wanna comment feature, go to https://disqus.com/ to get your configuration; if not, comment following two lines.
-  shortname: jiyoung1329-github-io
-  name: Jykim 
-  public_key: C2BSD3FQsidRFVyoFK5NAAbr3wWGzigISyN9TasykXAzuLGN2SBeCyApCD5ibyb8  
+  name: jykim 
 
 
 # analytics
