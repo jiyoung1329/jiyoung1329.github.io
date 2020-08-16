@@ -6,13 +6,13 @@
 - name: Algorithm 
   href: /algo/
 
-- name: HTML/CSS
+- name: Html&css
   href: /html/
 
 - name: Django
   href: /django/
 
-- name: Vue.js
+- name: Vue
   href: /vuejs/
 
 - name: Database
