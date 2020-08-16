@@ -12,7 +12,7 @@
 - name: Django
   href: /django/
 
-- name: Vue.js
+- name: Vue
   href: /vuejs/
 
 - name: Database
