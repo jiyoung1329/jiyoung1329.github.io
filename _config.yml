@@ -34,9 +34,15 @@ highlighter-theme: monokai
 date_format: "%Y-%M-%D"
 plugins:
   - jekyll-feed
+  - jemoji
 category_dir: category/
 tag_dir: tag/
 
+gems: ['jekyll-emoji']
+emoji:
+  format: emojione-svg # default html
+  ascii: true # default false
+  shortname: true # default true
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
