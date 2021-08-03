@@ -76,45 +76,35 @@
 		</div>
 		<div class="content">
 			<article class="post">
-	<header class="post-header home">
+	<header class="post-header">
 		<div class="post-title"> 
-			About
+			[Blog] Github 블로그 만들기 - 편집
 		</div>
+		<time class="post-date dt-published" datetime="2020-08-03T13:20:23+09:00" itemprop="datePublished">2020/08/03
+		</time>		
 	</header>
 
 	<div class="post-content">
-		<h2 id="theme-monos">Theme Monos</h2>
-<blockquote>
-  <p>Simple and lightweight theme for Jekyll</p>
-</blockquote>
+		<p>이전 글에서 블로그를 생성하였으니 이제 블로그 편집을 해보자.</p>
 
-<h3 id="features">Features</h3>
-<ul>
-  <li>Responsive.</li>
-  <li>Syntax Highlight</li>
-  <li>Most optimized theme for tech blog.</li>
-  <li>Lightweight with minimum stylesheet.</li>
-  <li>Easy to customize.</li>
-  <li>Offers category menu.</li>
-</ul>
+<h1 id="1-github-category-수정">1. Github Category 수정</h1>
 
-<h3 id="_configyml">_config.yml</h3>
-<blockquote>
-  <p>Code block will look like this.</p>
-  <div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">highlighter-theme</span><span class="pi">:</span> <span class="s">monokai //you can change your syntax color scheme.</span>
-<span class="na">date_format</span><span class="pi">:</span> <span class="s2">"</span><span class="s">%Y-%M-%D"</span> <span class="s">//and date format.</span>
-</code></pre></div>  </div>
-</blockquote>
+<hr />
 
-<h3 id="screenshots">Screenshots</h3>
-<h4 id="page">Page</h4>
-<p><img src="/public/img/screenshot-1.png" alt="alt text" /></p>
-<h4 id="articles">Articles</h4>
-<p><img src="/public/img/screenshot-2.png" alt="alt text" /></p>
-<h4 id="page---mobile">Page - Mobile</h4>
-<p><img src="/public/img/screenshot-m1.png" alt="alt text" /></p>
-<h4 id="page---articles">Page - Articles</h4>
-<p><img src="/public/img/screenshot-m2.png" alt="alt text" /></p>
+<p>jekyll 테마마다 카테고리 수정하는 방법이 다르다. 그러니 jekyll 테마별로 어떻게 카테고리를 수정하는지는 해당 README 파일을 참고하거나, 파일 구조를 보고 따라하는 수 밖에 없다.</p>
+
+<p>내가 적용시킨 이 테마에서는 카테고리 수정이 생각보다 아주 쉬웠다. 그냥 게시물의 <strong>카테고리 칸에 새로운 카테고리를 넣으니 자동으로 생성되더라</strong>.. 이 쉬운 방법을 모르고 30분동안 헤맨 것 같다.</p>
+
+<p>보통 새 게시물을 생성할 때, markdown 의 맨 위에 아래와 같이 적어야한다.(이 또한 테마마다 적는 방식이 다르니 이건 참고만 하길)</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>layout: post
+title: "[Blog] Github 블로그 만들기 - 편집"
+date: 2020-08-03 13:20:23 +0900
+category: Git
+</code></pre></div></div>
+
+<p>여기서 __category__부분에 내가 원하는 카테고리를 적으면 자동으로 생성되고 해당 카테고리에 게시물이 저장된다. 너어어무 쉽다!!</p>
+
 
 	</div>
 </article>

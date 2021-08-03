@@ -1,1 +1,97 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-08-03T13:36:49+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Blog</title><subtitle>혼자 끄적거리는 블로그</subtitle><entry><title type="html">[Django] 로그인/회원가입 구현</title><link href="http://localhost:4000/django/2020/08/02/Django-%EB%A1%9C%EA%B7%B8%EC%9D%B8%ED%9A%8C%EC%9B%90%EA%B0%80%EC%9E%85-%EA%B5%AC%ED%98%84.html" rel="alternate" type="text/html" title="[Django] 로그인/회원가입 구현" /><published>2020-08-02T21:20:23+09:00</published><updated>2020-08-02T21:20:23+09:00</updated><id>http://localhost:4000/django/2020/08/02/%5BDjango%5D-%EB%A1%9C%EA%B7%B8%EC%9D%B8%ED%9A%8C%EC%9B%90%EA%B0%80%EC%9E%85%20%EA%B5%AC%ED%98%84</id><content type="html" xml:base="http://localhost:4000/django/2020/08/02/Django-%EB%A1%9C%EA%B7%B8%EC%9D%B8%ED%9A%8C%EC%9B%90%EA%B0%80%EC%9E%85-%EA%B5%AC%ED%98%84.html">&lt;h1 id=&quot;django-로그인회원가입-구현&quot;&gt;[Django] 로그인/회원가입 구현&lt;/h1&gt;</content><author><name></name></author><category term="Django" /><summary type="html">[Django] 로그인/회원가입 구현</summary></entry></feed>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-08-03T13:52:01+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Blog</title><subtitle>혼자 끄적거리는 블로그</subtitle><entry><title type="html">[Blog] Github 블로그 만들기 - 편집</title><link href="http://localhost:4000/git/2020/08/03/Blog-Github-%EB%B8%94%EB%A1%9C%EA%B7%B8-%EB%A7%8C%EB%93%A4%EA%B8%B0-%ED%8E%B8%EC%A7%91.html" rel="alternate" type="text/html" title="[Blog] Github 블로그 만들기 - 편집" /><published>2020-08-03T13:20:23+09:00</published><updated>2020-08-03T13:20:23+09:00</updated><id>http://localhost:4000/git/2020/08/03/%5BBlog%5D-Github-%EB%B8%94%EB%A1%9C%EA%B7%B8-%EB%A7%8C%EB%93%A4%EA%B8%B0---%ED%8E%B8%EC%A7%91</id><content type="html" xml:base="http://localhost:4000/git/2020/08/03/Blog-Github-%EB%B8%94%EB%A1%9C%EA%B7%B8-%EB%A7%8C%EB%93%A4%EA%B8%B0-%ED%8E%B8%EC%A7%91.html">&lt;p&gt;이전 글에서 블로그를 생성하였으니 이제 블로그 편집을 해보자.&lt;/p&gt;
+
+&lt;h1 id=&quot;1-github-category-수정&quot;&gt;1. Github Category 수정&lt;/h1&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;jekyll 테마마다 카테고리 수정하는 방법이 다르다. 그러니 jekyll 테마별로 어떻게 카테고리를 수정하는지는 해당 README 파일을 참고하거나, 파일 구조를 보고 따라하는 수 밖에 없다.&lt;/p&gt;
+
+&lt;p&gt;내가 적용시킨 이 테마에서는 카테고리 수정이 생각보다 아주 쉬웠다. 그냥 게시물의 &lt;strong&gt;카테고리 칸에 새로운 카테고리를 넣으니 자동으로 생성되더라&lt;/strong&gt;.. 이 쉬운 방법을 모르고 30분동안 헤맨 것 같다.&lt;/p&gt;
+
+&lt;p&gt;보통 새 게시물을 생성할 때, markdown 의 맨 위에 아래와 같이 적어야한다.(이 또한 테마마다 적는 방식이 다르니 이건 참고만 하길)&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;layout: post
+title: &quot;[Blog] Github 블로그 만들기 - 편집&quot;
+date: 2020-08-03 13:20:23 +0900
+category: Git
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;여기서 __category__부분에 내가 원하는 카테고리를 적으면 자동으로 생성되고 해당 카테고리에 게시물이 저장된다. 너어어무 쉽다!!&lt;/p&gt;</content><author><name></name></author><category term="Git" /><summary type="html">이전 글에서 블로그를 생성하였으니 이제 블로그 편집을 해보자.</summary></entry><entry><title type="html">[Blog] Github 블로그 만들기 - 생성</title><link href="http://localhost:4000/git/2020/08/03/Blog-Github-%EB%B8%94%EB%A1%9C%EA%B7%B8-%EB%A7%8C%EB%93%A4%EA%B8%B0.html" rel="alternate" type="text/html" title="[Blog] Github 블로그 만들기 - 생성" /><published>2020-08-03T13:20:23+09:00</published><updated>2020-08-03T13:20:23+09:00</updated><id>http://localhost:4000/git/2020/08/03/%5BBlog%5D%20Github%20%EB%B8%94%EB%A1%9C%EA%B7%B8%20%EB%A7%8C%EB%93%A4%EA%B8%B0</id><content type="html" xml:base="http://localhost:4000/git/2020/08/03/Blog-Github-%EB%B8%94%EB%A1%9C%EA%B7%B8-%EB%A7%8C%EB%93%A4%EA%B8%B0.html">&lt;p&gt;본격적으로 개발에 대해서 공부하기로 마음은 먹었지만, 항상 로컬에 정리하다보니 파일들이 어수선해지기 시작했다.&lt;/p&gt;
+
+&lt;p&gt;이제 배운 내용을 좀 더 편하게 관리하기 위해, 예전에 테마만 적용시키고 외면했던 Github 블로그를 다시 재활용하려고 한다!!&lt;/p&gt;
+
+&lt;p&gt;일단 아래에 Github에 Jekyll 테마를 적용시키는 방법을 정리해봤다. (&lt;a href=&quot;https://zeddios.tistory.com/1222&quot;&gt;참고 블로그&lt;/a&gt;)&lt;/p&gt;
+
+&lt;h1 id=&quot;1-github에-새-저장소-생성&quot;&gt;1. Github에 새 저장소 생성&lt;/h1&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;img src=&quot;/public/img/gitblog/gitblog_1.png&quot; alt=&quot;alt text&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;!! 이때 저장소명은 &lt;code class=&quot;highlighter-rouge&quot;&gt;username.github.io&lt;/code&gt;로 해야한다 ! !&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;그 후 아래 명령어로 로컬에 해당 repository를 다운 받는다.&lt;/p&gt;
+
+&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git clone https://github.com/&lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;username&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;/&lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;username&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;.github.io.git
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h1 id=&quot;2-ruby-설치&quot;&gt;2. Ruby 설치&lt;/h1&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://rubyinstaller.org/downloads/&quot;&gt;Ruby 설치 주소&lt;/a&gt; 링크로 접속하여 제일 최신 Ruby를 설치하자.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/public/img/gitblog/gitblog_2.png&quot; alt=&quot;alt text&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;설치가 잘 되었는지 확인하기 위해 아래와 같이 입력해본다.&lt;/p&gt;
+
+&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;gem &lt;span class=&quot;nt&quot;&gt;--version&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;# 3.2.22&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h1 id=&quot;3-jekyll-테마-적용&quot;&gt;3. jekyll 테마 적용&lt;/h1&gt;
+
+&lt;hr /&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Ruby 설치가 완료됐으면 gem 명령어를 사용해 jekyll을 설치한다.&lt;/p&gt;
+
+    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ gem install jekyll bundler
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;http://jekyllthemes.org/&quot;&gt;jekyll 테마 사이트&lt;/a&gt;에 들어가 원하는 테마를 선택하여 다운받는다.&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;/public/img/gitblog/gitblog_3.png&quot; alt=&quot;alt text&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;압축파일을 풀고 모든 파일을 git 로컬 저장소에 복사 붙여넣기를 한다.&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;/public/img/gitblog/gitblog_4.png&quot; alt=&quot;alt text&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;bundle 명령어를 통해 로컬에 우선 테스트 해본다!!&lt;/p&gt;
+
+    &lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;bundle &lt;span class=&quot;nb&quot;&gt;install&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;bundle &lt;span class=&quot;nb&quot;&gt;exec &lt;/span&gt;jekyll serve
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+
+    &lt;p&gt;여기서 dependency error가 정말 많이 발생한다. 이 때, 에러문구를 살펴보고 필요한 패키지들은 &lt;code class=&quot;highlighter-rouge&quot;&gt;gem install [package]&lt;/code&gt;를 해주면 된다…&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;/public/img/gitblog/gitblog_5.png&quot; alt=&quot;alt text&quot; /&gt;&lt;/p&gt;
+
+    &lt;p&gt;jekyll 테마가 잘 적용이 됐는지 확인하고!!&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;git push를 통해 원격저장소에도 똑같이 적용시킨다.&lt;/p&gt;
+
+    &lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git add &lt;span class=&quot;k&quot;&gt;*&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git commit &lt;span class=&quot;nt&quot;&gt;-m&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;message&quot;&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git push origin main
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;이제 원격저장소에도 똑같이 적용된 것을 확인하면 완료!!&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;</content><author><name></name></author><category term="Git" /><summary type="html">본격적으로 개발에 대해서 공부하기로 마음은 먹었지만, 항상 로컬에 정리하다보니 파일들이 어수선해지기 시작했다.</summary></entry><entry><title type="html">[Django] 로그인/회원가입 구현</title><link href="http://localhost:4000/django/2020/08/02/Django-%EB%A1%9C%EA%B7%B8%EC%9D%B8%ED%9A%8C%EC%9B%90%EA%B0%80%EC%9E%85-%EA%B5%AC%ED%98%84.html" rel="alternate" type="text/html" title="[Django] 로그인/회원가입 구현" /><published>2020-08-02T21:20:23+09:00</published><updated>2020-08-02T21:20:23+09:00</updated><id>http://localhost:4000/django/2020/08/02/%5BDjango%5D-%EB%A1%9C%EA%B7%B8%EC%9D%B8%ED%9A%8C%EC%9B%90%EA%B0%80%EC%9E%85%20%EA%B5%AC%ED%98%84</id><content type="html" xml:base="http://localhost:4000/django/2020/08/02/Django-%EB%A1%9C%EA%B7%B8%EC%9D%B8%ED%9A%8C%EC%9B%90%EA%B0%80%EC%9E%85-%EA%B5%AC%ED%98%84.html">&lt;h1 id=&quot;django-로그인회원가입-구현&quot;&gt;[Django] 로그인/회원가입 구현&lt;/h1&gt;</content><author><name></name></author><category term="Django" /><summary type="html">[Django] 로그인/회원가입 구현</summary></entry></feed>
