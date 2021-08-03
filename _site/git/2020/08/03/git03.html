@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+	
+	{%- include head.html -%}
+		
+  <style>@import url(/public/css/syntax/monokai.css);</style>
+  <title>Blog</title>
+  <!-- <link href="/public/css/bootstrap.min.css" rel="stylesheet"> -->
+
+  <link href="/public/css/style.css" rel="stylesheet">
+  <body>
+  	<div class="container"> 
+		<div class="sidebar">
+			<div class="sidebar-item sidebar-header">
+	<div class='sidebar-brand'>
+		<a href="/about/">Blog</a>
+	</div>
+	<p class="lead">혼자 끄적거리는 블로그</p></div>
+
+<div class="sidebar-item sidebar-nav">
+	<ul class="nav">
+      <li class="nav-title">Pages</li>
+	  <li>
+	  	<a class="nav-item" href="/">Articles</a>
+	  </li>
+	  
+	  
+	    
+	  
+	    
+	      
+	        <li>
+	        	<a class="nav-item" href="/about/">
+	            	About
+	            </a>
+	        </li>
+	      
+	    
+	  
+	    
+	      
+	    
+	  
+	    
+	  
+	    
+	  
+	</ul>
+</div>
+
+<div class="sidebar-item sidebar-nav">
+  	<ul class="nav">
+			<li class="nav-title">Categories</li>
+	    
+	    <li>
+	    	<a class="nav-item" href="/category/#Git">
+				<span class="name">Git</span>
+				<span class="badge">3</span>
+	    	</a>
+ 		</li>
+	    
+	  </nav>
+	</ul>
+</div>
+
+<div class="sidebar-item sidebar-footer">
+	<p>Powered by <a href="https://github.com/jekyll/jekyll">Jekyll</a></p>
+</div>
+		</div>
+		<div class="content">
+			<article class="post">
+	<header class="post-header">
+		<div class="post-title"> 
+			[Error] Github 블로그 생성 과정 중 발생한 문제
+		</div>
+		<time class="post-date dt-published" datetime="2020-08-03T13:20:23+09:00" itemprop="datePublished">2020/08/03
+		</time>		
+	</header>
+
+	<div class="post-content">
+		<p>Github 블로그를 만들 때는 쉬울 줄 알았는데 생각보다 애를 먹은 부분이 있다.</p>
+
+<h1 id="1-liquid-tag-error">1. Liquid Tag Error</h1>
+
+<hr />
+
+<p>처음에 블로그 글을 작성하고 <code class="highlighter-rouge">git push origin main</code>을 했지만 홈페이지에 전혀 적용이 되지 않았다. 원격 저장소에는 다 업데이트가 됐는데 왜 홈페이지에 적용이 안될가 고민중에… 이런 것을 봤다</p>
+
+<p><img src="/public/img/gitblog/gitblog_6.png" alt="alt text" /></p>
+
+<p>뭔가 빌드가 안됐단다… 이유가 Liquid Tag를 인식을 못한다고 되어있다.</p>
+
+<p>그럼 Liquid Tag가 뭘까? 일단 생김새는 <strong>{\%\%}</strong> 이렇게 생겼다. 검색해보니 템플릿을 표현하기 위한 언어라고 되어있다. 홈페이지 만들 때 Liquid Tag를 사용하여 for 구문 등을 썼던 기억이 난다.</p>
+
+<p>해결책은 간단하다. 아래 코드처럼 Liquid Tag가 사용된 줄의 위 아래에 Liquid Tag를 사용해서 raw, endraw를 붙여주면 된다.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">&lt;!DOCTYPE html&gt;</span>
+<span class="nt">&lt;html</span> <span class="na">lang=</span><span class="s">"en"</span><span class="nt">&gt;</span>
+	
+	{%- include head.html -%}
+		
+  <span class="nt">&lt;style&gt;</span><span class="k">@import</span> <span class="sx">url(/public/css/syntax/monokai.css)</span><span class="p">;</span><span class="nt">&lt;/style&gt;</span>
+  <span class="nt">&lt;title&gt;</span>Blog<span class="nt">&lt;/title&gt;</span>
+</code></pre></div></div>
+
+<p>그러면 정상적으로 빌드가 완료되고 홈페이지에도 바로 적용이 된 것을 확인할 수 있다!!</p>
+
+
+	</div>
+</article>
+		</div>
+	</div>
+  </body>
+</html>
