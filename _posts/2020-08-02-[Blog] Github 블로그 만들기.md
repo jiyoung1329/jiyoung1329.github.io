@@ -10,7 +10,7 @@ category: Git
 
 이제 배운 내용을 좀 더 편하게 관리하기 위해, 예전에 테마만 적용시키고 외면했던 Github 블로그를 다시 재활용하려고 한다!!
 
-일단 아래에 Github에 Jekyll 테마를 적용시키는 방법을 정리해봤다. ([참고 블로그](https://zeddios.tistory.com/1222))      
+일단 아래에 Github에 Jekyll 테마를 적용시키는 방법을 정리해봤다.
 
 
 
