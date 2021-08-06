@@ -38,7 +38,7 @@ plugins:
 category_dir: category/
 tag_dir: tag/
 
-gems: ['jekyll-emoji', 'jekyll-feed']
+gems: ['jekyll-emoji']
 emoji:
   format: emojione-svg # default html
   ascii: true # default false
