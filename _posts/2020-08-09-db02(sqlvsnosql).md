@@ -17,10 +17,6 @@ category: DataBase
 
 
 
-
-
-
-
 ## (0) 정의
 
 ### 1. SQL(Structured Query Language)
@@ -37,7 +33,7 @@ category: DataBase
 
 
 
-위에서 SQL과 NoSQL의 정의를 비교해봤으니 아래에서는 특징들에 대해서 비교해보자.
+그럼 이제 아래에서 각 언어의 특징에 대해서 비교해보자.
 
 
 
@@ -67,10 +63,6 @@ category: DataBase
 
 즉 따로 테이블관계의 정의를 따질 필요가 없다..!!
 
-https://velog.io/@thms200/SQL-vs-NoSQL
-
-
-
 그렇다면 아래에서 좀 더 자세히 비교를 해보자.
 
 
@@ -79,7 +71,7 @@ https://velog.io/@thms200/SQL-vs-NoSQL
 
 ### SQL - Strict Schema(엄격한 스키마)
 
-SQL은 테이블에 레코드(record, 행)로 저장되며 각 테이블마다 명확하게 정의된 구조가 있다. 
+SQL은 데이터들이 정의된 테이블에 레코드(record, 행)형식으로 저장되며 각 테이블마다 명확하게 정의된 구조가 있다. 
 
 ![alt text](/public/img/gitblog/db_14.png)
 
