@@ -9,7 +9,7 @@ category: DataBase
 
 
 
-# 1. SQL vs NoSQL
+# 1. SQL vs NoSQL 
 
 첫 번째 고민은 MySQL과 같은 SQL을 쓸건지, firebase DB와 같은 NoSQL을 쓸건지 였다. 친구로부터 firebase를 사용하면 소셜 로그인 기능을 편하게 사용 가능하며 DB 관리도 할 수 있다는 얘기를 들었다. 
 
