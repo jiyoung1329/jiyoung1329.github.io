@@ -38,3 +38,4 @@ Array, List, Stack, Queue, Hash Table, Tree, Heap 에 대해서 간단하게 정
 
 # 2. List (Linked List)
 
+연결리스트(Linked List)는 각 노드가 데이터와 포인터를 가지고 한 줄로 연결되어 있는 방식으로 데이터를 저장하는 자료 구조이다.
